@@ -75,3 +75,62 @@ address {
     display: flex;
     align-items: center;
 }
+
+.cv__container__body {
+    display: flex;
+    font-family: Raleway;
+}
+
+.cv__container__body__left-column {
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 310px;
+    color: white;
+    font-family: raleway;
+
+}
+
+h3 {
+    background-color: #dbc2a4;
+    color: black;
+    padding: 8px 25px;
+    border-left: solid 7px #782221;
+    font-family: lato;
+}
+
+.cv__container__body__left-column__section__about {
+    text-indent: 50px;
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 1em;
+    line-height: 18px;
+
+}
+
+.cv__container__body__right-column {
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin-left: 35px;
+    background-color: white;
+    flex: 1;
+    margin-right: 5px;
+    padding-left: 35px;
+    padding-right: 20px;
+
+
+}
+
+.cv__container__body__right-column__section h3 {
+    background-color: #dbc2a4;
+    color: black;
+    padding: 8px 25px;
+    border-left: solid 7px #782221;
+}
+
+.cv__container__body__right-column__section__title span {
+    font-size: 1em;
+    font-weight: 300;
+
+}

@@ -134,3 +134,36 @@ h3 {
     font-weight: 300;
 
 }
+
+div:hover {
+    border-right: solid 2px #782221;
+}
+
+.cv__container__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+
+}
+
+.cv__container__footer-icone {
+    width: 45px;
+}
+
+.cv__container__footer-icone:hover {
+    opacity: 0.7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cv__container__para {
+    text-align: center;
+    position: bottom;
+
+    color: white;
+    text-decoration: none;
+}
